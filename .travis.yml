@@ -1,4 +1,16 @@
 language: android
 sudo: enabled
 
+android :
+ components:
+   -tools
+   -build-tools-25.0.1
+
+
+
+
+
+
+before_install:
+- chmod +x gradlew
 
